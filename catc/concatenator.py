@@ -8,7 +8,6 @@ from .config import Config
 
 class Concatenator(Component):
     def concat(self, cwd: str, config: Config) -> None:
-
         def read_files() -> Generator[str, None, None]:
             for path in config.files:
                 for file in glob(join(cwd, path), recursive=True):

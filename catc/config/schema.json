@@ -1,14 +1,17 @@
 {
   "properties": {
-    "include": {
+    "files": {
       "items": {
         "type": "string"
       },
-      "title": "Include",
+      "title": "Files",
       "type": "array"
     },
-    "out": {
+    "output": {
       "anyOf": [
+        {
+          "type": "string"
+        },
         {
           "items": {
             "type": "string"
@@ -20,16 +23,16 @@
         }
       ],
       "default": null,
-      "title": "Out"
+      "title": "Output"
     },
-    "sep": {
+    "separator": {
       "default": "\n",
-      "title": "Sep",
+      "title": "Separator",
       "type": "string"
     }
   },
   "required": [
-    "include"
+    "files"
   ],
   "title": "Config",
   "type": "object"

@@ -1,10 +1,11 @@
 {
-  "include": [
+  "files": [
     "src/**/*.txt"
   ],
-  "out": [
+  "output": [
     "build/merged.txt",
     "dist/merged.txt"
   ],
-  "sep": "\n"
+  "separator": "\n",
+  "$schema": "https://raw.githubusercontent.com/01Joseph-Hwang10/catc/master/catc/config/schema.json"
 }
