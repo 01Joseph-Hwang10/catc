@@ -1,0 +1,7 @@
+{
+  "include": [
+    "src/**/*.txt"
+  ],
+  "out": "dist/merged.txt",
+  "sep": ""
+}

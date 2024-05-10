@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "include": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Include",
+      "type": "array"
+    },
+    "out": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Out"
+    },
+    "sep": {
+      "default": "\n",
+      "title": "Sep",
+      "type": "string"
+    }
+  },
+  "required": [
+    "include"
+  ],
+  "title": "Config",
+  "type": "object"
+}
