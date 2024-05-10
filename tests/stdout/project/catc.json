@@ -1,0 +1,6 @@
+{
+  "files": [
+    "src/**/*.txt"
+  ],
+  "$schema": "https://raw.githubusercontent.com/01Joseph-Hwang10/catc/master/catc/config/schema.json"
+}

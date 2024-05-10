@@ -18,6 +18,7 @@ class Concatenator(Component):
 
         if config.destinations is None:
             self.logger.info(concatenated)
+            return
 
         for out in config.destinations:
             out_path = join(cwd, out)

@@ -6,7 +6,7 @@ def run_catc(cwd: str, path: str) -> str:
         f"catc {path}",
         shell=True,
         cwd=cwd,
-    )
+    ).decode("utf-8")
 
 
 def read(path: str) -> str:
