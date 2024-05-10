@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/01Joseph-Hwang10/catc/compare/catc-v0.1.0...catc-v0.1.1) (2024-05-10)
+
+
+### Bug Fixes
+
+* stdout ([4548ec0](https://github.com/01Joseph-Hwang10/catc/commit/4548ec0c0c3d0af16eb4ce9aa8bf56195816aca7))
+
 ## [0.1.0](https://github.com/01Joseph-Hwang10/catc/compare/catc-v0.0.1...catc-v0.1.0) (2024-05-10)
 
 

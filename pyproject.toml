@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "catc"
-version = "0.1.0"
+version = "0.1.1"
 description = "Configuration driven file concatenation tool."
 classifiers = [
   'Development Status :: 5 - Production/Stable',
