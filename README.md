@@ -48,4 +48,4 @@ Any contribution is welcome! Check out [CONTRIBUTING.md](https://github.com/01Jo
 
 ## License
 
-`ldm` is licensed under a [MIT License](https://github.com/01Joseph-Hwang10/catc/blob/master/LICENSE).
+`catc` is licensed under a [MIT License](https://github.com/01Joseph-Hwang10/catc/blob/master/LICENSE).
